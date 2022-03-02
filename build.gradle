@@ -1,0 +1,12 @@
+plugins{
+    id 'java'
+}
+
+ext{
+    def gitFolder = "$projectDir/.git/"
+    def takeFromHash = 7
+    def file = new File("file1.txt")
+    println gitFolder.toString()
+    println takeFromHash.toString()
+    println file.toString()
+}
