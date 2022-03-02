@@ -3,6 +3,6 @@ plugins{
 }
 
 ext{
-    def head = new File("$projectDir/.git/refs/heads/master" ).text.substring(33, 41)
+    def head = new File("$projectDir/.git/refs/heads/main" ).text.substring(33, 41)
     println head.toString()
 }
